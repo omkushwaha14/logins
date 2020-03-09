@@ -1,11 +1,11 @@
 const Sequelize = require('sequelize');
-const db = new Sequelize(
-    'mytestdb',
-    'myusers',
-    'mypasss',
+ const db = new Sequelize(
+    'heroku_298eb0588a3e1da',
+    'b375000f561fa6',
+    '9b60aece',
     {
         dialect :'mysql',
-        host:'localhost'
+        host:'us-cdbr-iron-east-04.cleardb.net'
     }
 
 )
