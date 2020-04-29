@@ -1,7 +1,7 @@
 const route =require('express').Router()
 route.get('/',(req,res)=>{
     if(req.user) {
-        res.send("visiable to login user user")
+        res.render('/pvt')
     } else{
         res.redirect('/login')
     }
